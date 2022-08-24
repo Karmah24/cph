@@ -5,7 +5,7 @@ import path from 'path';
 import { getSaveLocationPref } from './preferences';
 import * as vscode from 'vscode';
 import { getJudgeViewProvider } from './extension';
-let onlineJudgeEnv = false;
+let onlineJudgeEnv = true;
 
 export const setOnlineJudgeEnv = (value: boolean) => {
     onlineJudgeEnv = value;

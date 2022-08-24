@@ -50,7 +50,7 @@ function Judge(props: {
             const data: VSToWebViewMessage = event.data;
             switch (data.command) {
                 case 'new-problem': {
-                    setOnlineJudgeEnv(false);
+                    setOnlineJudgeEnv(true);
                     break;
                 }
 
